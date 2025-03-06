@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Books Website</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <header class="text-center bold-4 text-4xl">
+      <h1>Favorite Book</h1>
+    </header>
+    <main>
+      <form class="bg-pink-300">
+        <div class="">
+          <label class="font-red-50">
+            Book Title
+            <input
+              type="text"
+              name="Title"
+              id="Title"
+              class="border rounded p-5 mt-1 block text-center bg-blue-100"
+            />
+          </label>
+        </div>
+        <div>
+          <label class="">
+            Book Author
+            <input
+              type="text"
+              name="Author"
+              id="Author"
+              class="border rounded p-5 mt-1 block bg-blue-100"
+            />
+          </label>
+        </div>
+        <div>
+          <label class="">
+            Year Published
+            <input
+              type="text"
+              name="Year Published"
+              id="Year Published"
+              class="border rounded p-5 block mt-1 bg-blue-100"
+            />
+          </label>
+        </div>
+      </form>
+      <div>
+        <button
+          class="bg-blue-500 text-white px-4 px-2 rounded cursor-pointer mt-4"
+        >
+          Submit
+        </button>
+      </div>
+    </main>
+    <footer class="mt-5">
+      <p>Copyright &copy 2025 Nijah Richardson </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
